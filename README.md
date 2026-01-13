@@ -14,13 +14,14 @@
 ---
 
 ## 🌈 About Me
-- 👩‍💻 Full-Stack Web Developer passionate about building **modern and scalable web apps**  
-- 💡 I enjoy **learning new technologies** and creating **efficient solutions**  
-- ⚡ Fun fact: I love **animated UIs, interactive dashboards, and clean code**  
+- 👩‍💻 Full-Stack Developer passionate about **modern & scalable web apps**  
+- 💡 I enjoy **UI animations, interactive dashboards, and clean code**  
+- ⚡ Fun fact: I love **learning new frameworks & experimenting with tech trends**  
 
 ---
 
-## 🛠️ Tech Stack
+## 🛠️ Tech Stack & Skills
+
 <p align="center">
   <img src="https://img.shields.io/badge/Laravel-EF3F3F?style=for-the-badge&logo=laravel&logoColor=white" /> 
   <img src="https://img.shields.io/badge/React-61DAFB?style=for-the-badge&logo=react&logoColor=black" /> 
@@ -31,35 +32,37 @@
   <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black" />
 </p>
 
+<p align="center">
+  <img src="https://github-readme-stats.vercel.app/api?username=yourusername&show_icons=true&theme=radical&count_private=true&hide_border=true" alt="Aya's GitHub Stats" width="45%"/>
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=yourusername&layout=compact&theme=radical&hide_border=true" alt="Top Languages" width="45%"/>
+</p>
+
 ---
 
-## 📊 GitHub Stats
+## 🔥 Skill Level
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=yourusername&show_icons=true&theme=radical&count_private=true&hide_border=true" alt="Aya's GitHub Stats" />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=yourusername&layout=compact&theme=radical&hide_border=true" alt="Top Languages" />
+  <img src="https://img.shields.io/badge/Laravel-90%25-brightgreen" />  
+  <img src="https://img.shields.io/badge/React-85%25-blue" />  
+  <img src="https://img.shields.io/badge/PHP-80%25-purple" />  
+  <img src="https://img.shields.io/badge/MongoDB-75%25-green" />  
+  <img src="https://img.shields.io/badge/MySQL-70%25-blue" />  
+  <img src="https://img.shields.io/badge/Tailwind-85%25-teal" />  
 </p>
 
 ---
 
 ## 📂 Featured Projects
-
-| Project | Description | Link |
-|---------|------------|------|
-| **EduTrack Dashboard** | Full-featured dashboard for managing students & courses | [Repo](https://github.com/yourusername/edutrack) |
-| **Blog Platform** | Laravel + React.js app with MongoDB backend | [Repo](https://github.com/yourusername/blog-platform) |
-| **E-commerce App** | Online shop with SQL backend and interactive frontend | [Repo](https://github.com/yourusername/e-commerce) |
-
 <p align="center">
-  <img src="https://media.giphy.com/media/L95W4wv8nnb9K/giphy.gif" alt="project GIF" width="300"/>
+  <a href="https://github.com/yourusername/edutrack"><img src="https://media.giphy.com/media/L95W4wv8nnb9K/giphy.gif" alt="EduTrack" width="250"/></a>
+  <a href="https://github.com/yourusername/blog-platform"><img src="https://media.giphy.com/media/3ohhwytHcusSCXXOUg/giphy.gif" alt="Blog Platform" width="250"/></a>
+  <a href="https://github.com/yourusername/e-commerce"><img src="https://media.giphy.com/media/xUPGcmA5Nm7Akz8kF6/giphy.gif" alt="E-commerce App" width="250"/></a>
 </p>
 
----
-
-## 🔧 Skills
-- **Backend:** Laravel, PHP, Node.js, REST APIs  
-- **Frontend:** React.js, HTML5, CSS3, Tailwind CSS, JavaScript  
-- **Database:** MongoDB, MySQL / SQL  
-- **Tools:** Git, GitHub, Docker, VS Code  
+| Project | Description |
+|---------|------------|
+| **EduTrack Dashboard** | Full-featured dashboard for managing students & courses with Laravel & React.js |
+| **Blog Platform** | Blogging platform using MongoDB and interactive React frontend |
+| **E-commerce App** | Online store with SQL backend and beautiful UI |
 
 ---
 
@@ -77,5 +80,5 @@
 
 ---
 
-✨ Let's connect, collaborate, and build amazing things together!  
+✨ Let's connect, collaborate, and **build amazing things together!**  
 
