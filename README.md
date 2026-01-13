@@ -1,96 +1,128 @@
+<div align="center">
+
+<!-- Bannière animée -->
+<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&height=200&section=header&text=✨%20Bienvenue%20sur%20mon%20Profil%20✨&fontSize=40&fontAlignY=35&animation=fadeIn" />
+
+<!-- Badges animés -->
 <p align="center">
-  <img src="https://media.giphy.com/media/3oEjI6SIIHBdRxXI40/giphy.gif" alt="Coding GIF" width="200"/>
+  <img src="https://komarev.com/ghpvc/?username=votreusername&label=Profile%20Views&color=0e75b6&style=flat" alt="Profile Views" />
+  <img src="https://img.shields.io/github/followers/votreusername?label=Follow&style=social" alt="GitHub Followers" />
+  <img src="https://img.shields.io/github/stars/votreusername?label=Stars&style=social" alt="GitHub Stars" />
 </p>
 
-<h1 align="center">Hi 👋, I'm Aya Naimi</h1>
-<h3 align="center">Full-Stack Developer | Laravel, React.js, PHP, MongoDB, SQL</h3>
+<!-- Avatar et titre -->
+<img src="https://avatars.githubusercontent.com/u/votre-id" width="200" height="200" style="border-radius: 50%; border: 4px solid var(--border-color); box-shadow: 0 0 20px rgba(var(--accent-color), 0.3);" />
 
+<h1 align="center">👋 Hello, I'm [Votre Nom]</h1>
+<h3 align="center">🚀 [Votre Titre/Rôle] | 💡 Innovateur Passionné | 🌟 Créateur de Solutions</h3>
+
+<!-- Typing animation -->
 <p align="center">
-  <a href="https://www.linkedin.com/in/aya-naimi/"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white&animation=twinkle" /></a>
-  <a href="mailto:aya.naimi@example.com"><img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white&animation=twinkle" /></a>
-  <a href="https://aya-naimi.dev"><img src="https://img.shields.io/badge/Portfolio-4B0082?style=for-the-badge&logo=dev.to&logoColor=white&animation=twinkle" /></a>
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&duration=4000&pause=1000&color=6366F1&center=true&vCenter=true&width=500&lines=Développeur+Full+Stack;Architecte+Logiciel;Passionné+d'Innovation;Adepte+du+Clean+Code;Amoureux+du+Design+Moderne" alt="Typing Animation" />
 </p>
 
----
-
-## 🌈 About Me
-- 👩‍💻 Full-Stack Developer passionate about **modern & scalable web apps**  
-- 💡 I enjoy **animated dashboards, interactive UIs, and clean code**  
-- ⚡ Fun fact: I love **learning new frameworks & experimenting with trends**  
+</div>
 
 ---
 
-## 🛠️ Tech Stack & Skills
-<p align="center">
-  <img src="https://img.shields.io/badge/Laravel-EF3F3F?style=for-the-badge&logo=laravel&logoColor=white&animation=spin" /> 
-  <img src="https://img.shields.io/badge/React-61DAFB?style=for-the-badge&logo=react&logoColor=black&animation=spin" /> 
-  <img src="https://img.shields.io/badge/PHP-777BB4?style=for-the-badge&logo=php&logoColor=white&animation=spin" /> 
-  <img src="https://img.shields.io/badge/MongoDB-47A248?style=for-the-badge&logo=mongodb&logoColor=white&animation=spin" /> 
-  <img src="https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white&animation=spin" /> 
-  <img src="https://img.shields.io/badge/Tailwind-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white&animation=spin" /> 
-  <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black&animation=spin" />
-</p>
+## 🛠️ Tech Stack & Outils
+
+<!-- Technologies avec des badges stylés -->
+<div align="center">
+
+### 🚀 Frontend
+![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
+![Vue.js](https://img.shields.io/badge/Vue.js-35495E?style=for-the-badge&logo=vuedotjs&logoColor=4FC08D)
+![TypeScript](https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white)
+![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white)
+
+### ⚙️ Backend
+![Node.js](https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white)
+![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
+![Go](https://img.shields.io/badge/Go-00ADD8?style=for-the-badge&logo=go&logoColor=white)
+![Java](https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white)
+
+### 🗄️ Bases de données
+![MongoDB](https://img.shields.io/badge/MongoDB-47A248?style=for-the-badge&logo=mongodb&logoColor=white)
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-316192?style=for-the-badge&logo=postgresql&logoColor=white)
+![Redis](https://img.shields.io/badge/Redis-DC382D?style=for-the-badge&logo=redis&logoColor=white)
+
+### ☁️ Cloud & DevOps
+![AWS](https://img.shields.io/badge/AWS-FF9900?style=for-the-badge&logo=amazonaws&logoColor=white)
+![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
+![Kubernetes](https://img.shields.io/badge/Kubernetes-326CE5?style=for-the-badge&logo=kubernetes&logoColor=white)
+![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-2088FF?style=for-the-badge&logo=github-actions&logoColor=white)
+
+### 🎨 Design & Outils
+![Figma](https://img.shields.io/badge/Figma-F24E1E?style=for-the-badge&logo=figma&logoColor=white)
+![Adobe XD](https://img.shields.io/badge/Adobe%20XD-FF61F6?style=for-the-badge&logo=Adobe%20XD&logoColor=white)
+![Photoshop](https://img.shields.io/badge/Adobe%20Photoshop-31A8FF?style=for-the-badge&logo=Adobe%20Photoshop&logoColor=white)
+
+</div>
 
 ---
 
-## 📊 GitHub Stats & Dynamic Badges
-<p align="center">
-  <!-- Activity Card -->
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=yourusername&theme=radical&border_radius=10" alt="GitHub Streak"/>
-  <!-- Top Languages -->
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=yourusername&layout=compact&theme=radical&hide_border=true" alt="Top Languages"/>
-  <!-- Contribution Graph -->
-  <img src="https://activity-graph.herokuapp.com/graph?username=yourusername&theme=react-dark&area=true" alt="Activity Graph"/>
-</p>
+## 📊 Statistiques GitHub
+
+<div align="center">
+
+<!-- Stats avec thème sombre/clair -->
+<img src="https://github-readme-stats.vercel.app/api?username=votreusername&show_icons=true&theme=dark&hide_border=true&bg_color=00000000&title_color=6366F1&icon_color=6366F1&text_color=ffffff&include_all_commits=true&count_private=true" alt="GitHub Stats" width="48%" />
+<img src="https://github-readme-streak-stats.herokuapp.com/?user=votreusername&theme=dark&hide_border=true&background=00000000&stroke=6366F1&ring=6366F1&fire=6366F1&currStreakLabel=6366F1" alt="GitHub Streak" width="48%" />
+
+<!-- Langages les plus utilisés -->
+<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=votreusername&layout=compact&theme=dark&hide_border=true&bg_color=00000000&title_color=6366F1&text_color=ffffff" alt="Top Languages" />
+
+<!-- Graphique d'activité -->
+<img src="https://github-readme-activity-graph.vercel.app/graph?username=votreusername&theme=github-dark&hide_border=true&bg_color=00000000&color=6366F1&line=6366F1&point=ffffff" alt="Activity Graph" />
+
+</div>
 
 ---
 
-## 🔥 Skills Level
-<p align="center">
-  <img src="https://img.shields.io/badge/Laravel-90%25-brightgreen" />  
-  <img src="https://img.shields.io/badge/React-85%25-blue" />  
-  <img src="https://img.shields.io/badge/PHP-80%25-purple" />  
-  <img src="https://img.shields.io/badge/MongoDB-75%25-green" />  
-  <img src="https://img.shields.io/badge/MySQL-70%25-blue" />  
-  <img src="https://img.shields.io/badge/Tailwind-85%25-teal" />  
-</p>
+## 🎯 Projets Récents
+
+<!-- Cards pour les projets -->
+<div align="center">
+
+| Projet | Description | Tech Stack | Statut |
+|--------|-------------|------------|---------|
+| **[Awesome Project](https://github.com/votreusername/awesome-project)** | Application innovante avec design moderne | React, Node.js, MongoDB | ![Active](https://img.shields.io/badge/Status-Active-brightgreen) |
+| **[Dark Mode UI Kit](https://github.com/votreusername/dark-mode-ui)** | Kit UI avec support dark/light mode | Vue 3, TypeScript, Tailwind | ![Complete](https://img.shields.io/badge/Status-Complete-blue) |
+| **[Dev Tools Suite](https://github.com/votreusername/dev-tools)** | Collection d'outils pour développeurs | Python, FastAPI, Redis | ![In Progress](https://img.shields.io/badge/Status-In_Progress-orange) |
+
+</div>
 
 ---
 
-## 🖼️ Featured Projects (Interactive Carousel)
-<p align="center">
-  <a href="https://github.com/yourusername/edutrack">
-    <img src="https://media.giphy.com/media/L95W4wv8nnb9K/giphy.gif" alt="EduTrack" width="250"/>
-  </a>
-  <a href="https://github.com/yourusername/blog-platform">
-    <img src="https://media.giphy.com/media/3ohhwytHcusSCXXOUg/giphy.gif" alt="Blog Platform" width="250"/>
-  </a>
-  <a href="https://github.com/yourusername/e-commerce">
-    <img src="https://media.giphy.com/media/xUPGcmA5Nm7Akz8kF6/giphy.gif" alt="E-commerce App" width="250"/>
-  </a>
-</p>
+## 🏆 Trophées GitHub
 
-| Project | Description |
-|---------|------------|
-| **EduTrack Dashboard** | Full-featured dashboard with Laravel & React.js |
-| **Blog Platform** | Blogging platform using MongoDB & React frontend |
-| **E-commerce App** | Online store with SQL backend and beautiful UI |
+<div align="center">
+
+<!-- Trophées GitHub -->
+<img src="https://github-profile-trophy.vercel.app/?username=votreusername&theme=onedark&no-frame=true&row=2&column=4&margin-w=15&margin-h=15" alt="GitHub Trophies" />
+
+</div>
 
 ---
 
-## 📫 Contact Me
-<p align="center">
-  <a href="https://www.linkedin.com/in/aya-naimi/"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white"/></a>
-  <a href="mailto:aya.naimi@example.com"><img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white"/></a>
-  <a href="https://aya-naimi.dev"><img src="https://img.shields.io/badge/Portfolio-4B0082?style=for-the-badge&logo=dev.to&logoColor=white"/></a>
-</p>
+## ✨ Contributions Innovantes
 
----
+<!-- Timeline ou timeline visuelle -->
+<div align="center">
 
-## 💬 Fun Fact
-> "Code is like humor. When you have to explain it, it’s bad." – Cory House
+### 🌟 Points Forts
+- 🔭 **Recherche & Innovation** : Exploration des nouvelles technologies
+- 🎨 **Design Thinking** : Création d'expériences utilisateur exceptionnelles
+- 📱 **Responsive Design** : Applications adaptatives toutes plateformes
+- 🌙 **Dark Mode Expert** : Expert en interfaces sombres/clair
+- 🚀 **Performance** : Optimisation et rapidité
 
----
-
-✨ Let's connect, collaborate, and **build amazing things together!**
-
+### 📈 Évolution
+```mermaid
+graph LR
+    A[Idées 💡] --> B[Prototype 🛠️]
+    B --> C[Développement 🚀]
+    C --> D[Tests ✅]
+    D --> E[Production 🎉]
+    E --> F[Amélioration 🔄]
