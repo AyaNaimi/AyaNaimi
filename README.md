@@ -1,68 +1,96 @@
 <p align="center">
-  <img src="https://capsule-render.vercel.app/render?type=rect&color=0d1117&height=250&section=header&text=VOTRE_PSEUDO&fontSize=80&animation=fadeIn&fontAlignY=40&desc=Architecte%20Digital%20%26%20Creative%20Developer&descAlignY=60&descSize=20" width="100%" />
+  <img src="https://media.giphy.com/media/3oEjI6SIIHBdRxXI40/giphy.gif" alt="Coding GIF" width="200"/>
 </p>
 
+<h1 align="center">Hi 👋, I'm Aya Naimi</h1>
+<h3 align="center">Full-Stack Developer | Laravel, React.js, PHP, MongoDB, SQL</h3>
+
 <p align="center">
-  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=22&duration=3000&pause=1000&color=58A6FF&center=true&vCenter=true&width=500&lines=Building+modern+web+solutions...;Passionate+about+UI/UX+Design...;Solving+complex+problems...;Continuous+learner+always..." />
+  <a href="https://www.linkedin.com/in/aya-naimi/"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white&animation=twinkle" /></a>
+  <a href="mailto:aya.naimi@example.com"><img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white&animation=twinkle" /></a>
+  <a href="https://aya-naimi.dev"><img src="https://img.shields.io/badge/Portfolio-4B0082?style=for-the-badge&logo=dev.to&logoColor=white&animation=twinkle" /></a>
 </p>
 
 ---
 
-## 🌌 L'Écosystème du Développeur
-
-<table align="center">
-  <tr>
-    <td width="50%" style="border:none">
-      <h3>🚀 Compétences Clés</h3>
-      <img src="https://skillicons.dev/icons?i=nextjs,react,ts,nodejs,prisma,postgres,docker,aws,figma,tailwind&perline=5" />
-    </td>
-    <td width="50%" style="border:none">
-      <h3>📊 Activité Système</h3>
-      <img src="https://github-readme-stats.vercel.app/api?username=VOTRE_USERNAME&show_icons=true&theme=transparent&title_color=58A6FF&icon_color=58A6FF&text_color=c9d1d9&hide_border=true" width="100%" />
-    </td>
-  </tr>
-</table>
+## 🌈 About Me
+- 👩‍💻 Full-Stack Developer passionate about **modern & scalable web apps**  
+- 💡 I enjoy **animated dashboards, interactive UIs, and clean code**  
+- ⚡ Fun fact: I love **learning new frameworks & experimenting with trends**  
 
 ---
 
-## 🐍 Ma Contribution en Mouvement
-*Voici l'évolution de mon code transformée en animation de jeu Snake (se met à jour quotidiennement).*
-
+## 🛠️ Tech Stack & Skills
 <p align="center">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/VOTRE_USERNAME/VOTRE_USERNAME/output/github-contribution-grid-snake-dark.svg">
-    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/VOTRE_USERNAME/VOTRE_USERNAME/output/github-contribution-grid-snake.svg">
-    <img alt="github contribution grid snake animation" src="https://raw.githubusercontent.com/VOTRE_USERNAME/VOTRE_USERNAME/output/github-contribution-grid-snake.svg">
-  </picture>
+  <img src="https://img.shields.io/badge/Laravel-EF3F3F?style=for-the-badge&logo=laravel&logoColor=white&animation=spin" /> 
+  <img src="https://img.shields.io/badge/React-61DAFB?style=for-the-badge&logo=react&logoColor=black&animation=spin" /> 
+  <img src="https://img.shields.io/badge/PHP-777BB4?style=for-the-badge&logo=php&logoColor=white&animation=spin" /> 
+  <img src="https://img.shields.io/badge/MongoDB-47A248?style=for-the-badge&logo=mongodb&logoColor=white&animation=spin" /> 
+  <img src="https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white&animation=spin" /> 
+  <img src="https://img.shields.io/badge/Tailwind-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white&animation=spin" /> 
+  <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black&animation=spin" />
 </p>
 
 ---
 
-## 🛠️ Dashboard de Projets (Cartes Dynamiques)
-
+## 📊 GitHub Stats & Dynamic Badges
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api/pin/?username=VOTRE_USERNAME&repo=NOM_DE_VOTRE_MEILLEUR_PROJET&theme=tokyonight&show_owner=true" />
-  <img src="https://github-readme-stats.vercel.app/api/pin/?username=VOTRE_USERNAME&repo=NOM_DE_VOTRE_DEUXIEME_PROJET&theme=tokyonight&show_owner=true" />
+  <!-- Activity Card -->
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=yourusername&theme=radical&border_radius=10" alt="GitHub Streak"/>
+  <!-- Top Languages -->
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=yourusername&layout=compact&theme=radical&hide_border=true" alt="Top Languages"/>
+  <!-- Contribution Graph -->
+  <img src="https://activity-graph.herokuapp.com/graph?username=yourusername&theme=react-dark&area=true" alt="Activity Graph"/>
 </p>
 
 ---
 
-## 📈 Analyse du Flux de Travail
+## 🔥 Skills Level
 <p align="center">
-  <img src="https://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=VOTRE_USERNAME&theme=tokyonight&utcOffset=1" width="48%" />
-  <img src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=VOTRE_USERNAME&theme=tokyonight" width="48%" />
+  <img src="https://img.shields.io/badge/Laravel-90%25-brightgreen" />  
+  <img src="https://img.shields.io/badge/React-85%25-blue" />  
+  <img src="https://img.shields.io/badge/PHP-80%25-purple" />  
+  <img src="https://img.shields.io/badge/MongoDB-75%25-green" />  
+  <img src="https://img.shields.io/badge/MySQL-70%25-blue" />  
+  <img src="https://img.shields.io/badge/Tailwind-85%25-teal" />  
 </p>
 
 ---
 
-## 💬 Connectons-nous !
-
+## 🖼️ Featured Projects (Interactive Carousel)
 <p align="center">
-<a href="https://linkedin.com/in/VOTRE_LINKEDIN"><img src="https://img.shields.io/badge/-LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" /></a>
-<a href="https://twitter.com/VOTRE_TWITTER"><img src="https://img.shields.io/badge/-Twitter-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white" /></a>
-<a href="mailto:votre-email@exemple.com"><img src="https://img.shields.io/badge/-Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white" /></a>
+  <a href="https://github.com/yourusername/edutrack">
+    <img src="https://media.giphy.com/media/L95W4wv8nnb9K/giphy.gif" alt="EduTrack" width="250"/>
+  </a>
+  <a href="https://github.com/yourusername/blog-platform">
+    <img src="https://media.giphy.com/media/3ohhwytHcusSCXXOUg/giphy.gif" alt="Blog Platform" width="250"/>
+  </a>
+  <a href="https://github.com/yourusername/e-commerce">
+    <img src="https://media.giphy.com/media/xUPGcmA5Nm7Akz8kF6/giphy.gif" alt="E-commerce App" width="250"/>
+  </a>
 </p>
 
+| Project | Description |
+|---------|------------|
+| **EduTrack Dashboard** | Full-featured dashboard with Laravel & React.js |
+| **Blog Platform** | Blogging platform using MongoDB & React frontend |
+| **E-commerce App** | Online store with SQL backend and beautiful UI |
+
+---
+
+## 📫 Contact Me
 <p align="center">
-  <img src="https://capsule-render.vercel.app/render?type=waving&color=0d1117&height=100&section=footer" width="100%" />
+  <a href="https://www.linkedin.com/in/aya-naimi/"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white"/></a>
+  <a href="mailto:aya.naimi@example.com"><img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white"/></a>
+  <a href="https://aya-naimi.dev"><img src="https://img.shields.io/badge/Portfolio-4B0082?style=for-the-badge&logo=dev.to&logoColor=white"/></a>
 </p>
+
+---
+
+## 💬 Fun Fact
+> "Code is like humor. When you have to explain it, it’s bad." – Cory House
+
+---
+
+✨ Let's connect, collaborate, and **build amazing things together!**
+
