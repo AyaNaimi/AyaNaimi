@@ -3,7 +3,7 @@
 </div>
 
 <div align="center">
-  <h1>Hi 👋, I'm Aya Naimi</h1>
+  <h1 style="color:red;">Hi 👋, I'm Aya Naimi</h1>
   <h3>Full Stack Web Developer</h3>
 </div>
 
@@ -45,11 +45,11 @@ Passionnée par les applications modernes et interactives, je transforme les id�
       <th style="padding: 12px; border-radius: 12px 0 0 12px;">Project</th>
       <th style="padding: 12px;">Description</th>
       <th style="padding: 12px;">Tech</th>
-      <th style="padding: 12px; border-radius: 0 12px 12px 0;">Link</th>
+      <th style="padding: 12px; border-radius: 0 12px 12px 0;">Links</th>
     </tr>
   </thead>
   <tbody>
-    <tr style="background-color: #f3f3f3; transition: all 0.3s ease;">
+    <tr style="background-color:#f3f3f3;">
       <td style="padding:12px;">
         <a href="https://naimi-aya-portfolio.vercel.app" target="_blank" style="text-decoration:none; color:#4B0082; font-weight:bold;">
           <img src="https://media.giphy.com/media/3oEjI6SIIHBdRxXI40/giphy.gif" width="80" style="border-radius:8px;"><br/>
@@ -59,10 +59,15 @@ Passionnée par les applications modernes et interactives, je transforme les id�
       <td style="padding:12px;">Mon site personnel pour présenter mes projets</td>
       <td style="padding:12px;">React, Tailwind</td>
       <td style="padding:12px;">
-        <a href="https://naimi-aya-portfolio.vercel.app" style="padding:6px 12px; background:#4B0082; color:white; border-radius:8px; text-decoration:none; transition:0.3s;">Live Demo</a>
+        <a href="https://naimi-aya-portfolio.vercel.app" target="_blank">
+          <img src="https://img.shields.io/badge/Live%20Demo-4B0082?style=for-the-badge&logo=google-chrome&logoColor=white" />
+        </a>
+        <a href="https://github.com/AyaNaimi" target="_blank">
+          <img src="https://img.shields.io/badge/Source-GitHub-181717?style=for-the-badge&logo=github&logoColor=white" />
+        </a>
       </td>
     </tr>
-    <tr style="background-color: #e8e8e8; transition: all 0.3s ease;">
+    <tr style="background-color:#e8e8e8;">
       <td style="padding:12px;">
         <a href="https://lemhamdi-walid-lalla-saida.vercel.app" target="_blank" style="text-decoration:none; color:#4B0082; font-weight:bold;">
           <img src="https://media.giphy.com/media/L95W4wv8nnb9K/giphy.gif" width="80" style="border-radius:8px;"><br/>
@@ -72,7 +77,12 @@ Passionnée par les applications modernes et interactives, je transforme les id�
       <td style="padding:12px;">Site offrant un accompagnement psychologique personnalisé</td>
       <td style="padding:12px;">React, Supabase, Node.js</td>
       <td style="padding:12px;">
-        <a href="https://lemhamdi-walid-lalla-saida.vercel.app" style="padding:6px 12px; background:#4B0082; color:white; border-radius:8px; text-decoration:none; transition:0.3s;">Live Demo</a>
+        <a href="https://lemhamdi-walid-lalla-saida.vercel.app" target="_blank">
+          <img src="https://img.shields.io/badge/Live%20Demo-4B0082?style=for-the-badge&logo=google-chrome&logoColor=white" />
+        </a>
+        <a href="https://github.com/AyaNaimi" target="_blank">
+          <img src="https://img.shields.io/badge/Source-GitHub-181717?style=for-the-badge&logo=github&logoColor=white" />
+        </a>
       </td>
     </tr>
   </tbody>
@@ -104,9 +114,15 @@ Passionnée par les applications modernes et interactives, je transforme les id�
 <!-- Contact & Links -->
 <h2>📞 Contact & Links</h2>
 <p align="center">
-  <a href="mailto:ayanaimi21@gmail.com" style="margin:0 6px;"><img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white"/></a>
-  <a href="https://naimi-aya-portfolio.vercel.app" style="margin:0 6px;"><img src="https://img.shields.io/badge/Portfolio-4B0082?style=for-the-badge&logo=dev.to&logoColor=white"/></a>
-  <a href="https://github.com/AyaNaimi" style="margin:0 6px;"><img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white"/></a>
+  <a href="mailto:ayanaimi21@gmail.com" style="margin:0 6px;">
+    <img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white"/>
+  </a>
+  <a href="https://naimi-aya-portfolio.vercel.app" style="margin:0 6px;">
+    <img src="https://img.shields.io/badge/Portfolio-4B0082?style=for-the-badge&logo=dev.to&logoColor=white"/>
+  </a>
+  <a href="https://github.com/AyaNaimi" style="margin:0 6px;">
+    <img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white"/>
+  </a>
 </p>
 
 <hr/>
