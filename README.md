@@ -55,41 +55,41 @@ I build modern web applications with a strong focus on clean interfaces, useful 
 <td width="50%" valign="top">
   <h3><a href="https://github.com/AyaNaimi/trimly2">trimly2</a></h3>
   <p>Public repository by Aya Naimi.</p>
-  <p><span><svg width="10" height="10"><circle cx="5" cy="5" r="5" fill="#F7DF1E" /></svg> JavaScript</span> | Stars: 0 | Updated: May 05, 2026 | <a href="https://trimly2.vercel.app">Live</a></p>
+  <p><span><svg width="10" height="10"><circle cx="5" cy="5" r="5" fill="#F7DF1E" /></svg> JavaScript</span> | Stars: 0 | Updated: May 06, 2026 | <a href="https://trimly2.vercel.app">Live</a></p>
   
 </td>
+<td width="50%" valign="top">
+  <h3><a href="https://github.com/AyaNaimi/agile">agile</a></h3>
+  <p>Public repository by Aya Naimi.</p>
+  <p><span><svg width="10" height="10"><circle cx="5" cy="5" r="5" fill="#E34F26" /></svg> HTML</span> | Stars: 0 | Updated: May 05, 2026</p>
+  
+</td>
+</tr>
+<tr>
 <td width="50%" valign="top">
   <h3><a href="https://github.com/AyaNaimi/trimly3">trimly3</a></h3>
   <p>Public repository by Aya Naimi.</p>
   <p> | Stars: 0 | Updated: Apr 28, 2026</p>
   
 </td>
-</tr>
-<tr>
 <td width="50%" valign="top">
   <h3><a href="https://github.com/AyaNaimi/navito">navito</a></h3>
   <p>Public repository by Aya Naimi.</p>
   <p><span><svg width="10" height="10"><circle cx="5" cy="5" r="5" fill="#3178C6" /></svg> TypeScript</span> | Stars: 0 | Updated: Apr 17, 2026</p>
   
 </td>
+</tr>
+<tr>
 <td width="50%" valign="top">
   <h3><a href="https://github.com/AyaNaimi/backend_navito">backend_navito</a></h3>
   <p>Public repository by Aya Naimi.</p>
   <p><span><svg width="10" height="10"><circle cx="5" cy="5" r="5" fill="#777BB4" /></svg> PHP</span> | Stars: 0 | Updated: Apr 16, 2026</p>
   
 </td>
-</tr>
-<tr>
 <td width="50%" valign="top">
   <h3><a href="https://github.com/AyaNaimi/nav-zip">nav-zip</a></h3>
   <p>Public repository by Aya Naimi.</p>
   <p> | Stars: 0 | Updated: Apr 15, 2026</p>
-  
-</td>
-<td width="50%" valign="top">
-  <h3><a href="https://github.com/AyaNaimi/stage-final">stage-final</a></h3>
-  <p>Public repository by Aya Naimi.</p>
-  <p><span><svg width="10" height="10"><circle cx="5" cy="5" r="5" fill="#F7DF1E" /></svg> JavaScript</span> | Stars: 0 | Updated: Apr 10, 2026</p>
   
 </td>
 </tr>
