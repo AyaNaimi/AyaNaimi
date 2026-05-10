@@ -1,48 +1,147 @@
-<svg width="1200" height="360" viewBox="0 0 1200 360" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
-  <title id="title">Aya Naimi - Full Stack Web Developer</title>
-  <desc id="desc">A modern profile banner with Aya Naimi name and web development stack.</desc>
+<svg width="1200" height="380" viewBox="0 0 1200 380" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="hero-title hero-desc">
+  <title id="hero-title">Aya Naimi — Full Stack Web Developer</title>
+  <desc id="hero-desc">Premium profile banner: dark luxury design with geometric accents.</desc>
+
   <defs>
-    <linearGradient id="bg" x1="0" y1="0" x2="1200" y2="360" gradientUnits="userSpaceOnUse">
-      <stop offset="0" stop-color="#0D1117"/>
-      <stop offset="0.45" stop-color="#171032"/>
-      <stop offset="1" stop-color="#061B2E"/>
+    <linearGradient id="bg-grad" x1="0" y1="0" x2="1200" y2="380" gradientUnits="userSpaceOnUse">
+      <stop offset="0%"   stop-color="#080C12"/>
+      <stop offset="50%"  stop-color="#0C0E1A"/>
+      <stop offset="100%" stop-color="#07111C"/>
     </linearGradient>
-    <linearGradient id="accent" x1="128" y1="72" x2="1080" y2="285" gradientUnits="userSpaceOnUse">
-      <stop stop-color="#7C3AED"/>
-      <stop offset="0.5" stop-color="#EC4899"/>
-      <stop offset="1" stop-color="#06B6D4"/>
+
+    <linearGradient id="line-grad" x1="0" y1="0" x2="1200" y2="0" gradientUnits="userSpaceOnUse">
+      <stop offset="0%"   stop-color="#5B21B6" stop-opacity="0"/>
+      <stop offset="30%"  stop-color="#7C3AED"/>
+      <stop offset="60%"  stop-color="#EC4899"/>
+      <stop offset="85%"  stop-color="#06B6D4"/>
+      <stop offset="100%" stop-color="#06B6D4" stop-opacity="0"/>
     </linearGradient>
-    <filter id="glow" x="-20%" y="-20%" width="140%" height="140%">
-      <feGaussianBlur stdDeviation="18" result="blur"/>
-      <feColorMatrix in="blur" type="matrix" values="1 0 0 0 0.45 0 1 0 0 0.18 0 0 1 0 0.95 0 0 0 0.55 0"/>
+
+    <linearGradient id="name-grad" x1="0" y1="0" x2="700" y2="0" gradientUnits="userSpaceOnUse">
+      <stop offset="0%"   stop-color="#FFFFFF"/>
+      <stop offset="60%"  stop-color="#E2D9F3"/>
+      <stop offset="100%" stop-color="#93C5FD"/>
+    </linearGradient>
+
+    <linearGradient id="card-bg" x1="0" y1="0" x2="0" y2="1" gradientUnits="objectBoundingBox">
+      <stop offset="0%"   stop-color="#FFFFFF" stop-opacity="0.07"/>
+      <stop offset="100%" stop-color="#FFFFFF" stop-opacity="0.03"/>
+    </linearGradient>
+
+    <filter id="glow-pink">
+      <feGaussianBlur stdDeviation="40" result="b"/>
+      <feColorMatrix in="b" type="matrix" values="1 0 0 0 0.92  0 0 0 0 0.28  0 0 0 0 0.6  0 0 0 0.4 0"/>
       <feBlend in="SourceGraphic"/>
     </filter>
-    <pattern id="grid" width="38" height="38" patternUnits="userSpaceOnUse">
-      <path d="M 38 0 L 0 0 0 38" fill="none" stroke="#FFFFFF" stroke-opacity="0.055" stroke-width="1"/>
+    <filter id="glow-blue">
+      <feGaussianBlur stdDeviation="50" result="b"/>
+      <feColorMatrix in="b" type="matrix" values="0 0 0 0 0.02  0 0 0 0 0.72  0 0 0 0 0.83  0 0 0 0.35 0"/>
+      <feBlend in="SourceGraphic"/>
+    </filter>
+    <filter id="glow-purple">
+      <feGaussianBlur stdDeviation="35" result="b"/>
+      <feColorMatrix in="b" type="matrix" values="0.48 0 0 0 0.3  0 0 0 0 0.23  0 0 0 0 0.93  0 0 0 0.3 0"/>
+      <feBlend in="SourceGraphic"/>
+    </filter>
+
+    <pattern id="dots" width="28" height="28" patternUnits="userSpaceOnUse">
+      <circle cx="14" cy="14" r="0.8" fill="#FFFFFF" fill-opacity="0.08"/>
     </pattern>
   </defs>
 
-  <rect width="1200" height="360" rx="28" fill="url(#bg)"/>
-  <rect width="1200" height="360" rx="28" fill="url(#grid)"/>
+  <!-- Base -->
+  <rect width="1200" height="380" rx="20" fill="url(#bg-grad)"/>
+  <rect width="1200" height="380" rx="20" fill="url(#dots)"/>
 
-  <circle cx="1030" cy="76" r="128" fill="#06B6D4" fill-opacity="0.16" filter="url(#glow)"/>
-  <circle cx="145" cy="300" r="130" fill="#EC4899" fill-opacity="0.14" filter="url(#glow)"/>
+  <!-- Ambient glows -->
+  <circle cx="160" cy="340" r="180" fill="#EC4899" fill-opacity="0.15" filter="url(#glow-pink)"/>
+  <circle cx="1060" cy="60"  r="160" fill="#06B6D4" fill-opacity="0.18" filter="url(#glow-blue)"/>
+  <circle cx="600"  cy="190" r="120" fill="#7C3AED" fill-opacity="0.1"  filter="url(#glow-purple)"/>
 
-  <path d="M95 88 C245 20 341 148 486 87 C623 30 720 20 844 93 C948 154 1035 142 1110 100" stroke="url(#accent)" stroke-width="3" stroke-linecap="round" opacity="0.75"/>
-  <path d="M106 286 C248 224 365 323 501 262 C637 202 752 216 888 278 C981 321 1050 292 1114 238" stroke="url(#accent)" stroke-width="3" stroke-linecap="round" opacity="0.45"/>
-
-  <g transform="translate(82 76)">
-    <rect x="0" y="0" width="198" height="40" rx="20" fill="#FFFFFF" fill-opacity="0.08" stroke="#FFFFFF" stroke-opacity="0.12"/>
-    <text x="24" y="26" fill="#E5E7EB" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="16" font-weight="700">Hello, I'm Aya</text>
+  <!-- Geometric accent lines (top-right) -->
+  <g opacity="0.25">
+    <line x1="920" y1="18"  x2="1182" y2="18"  stroke="#7C3AED" stroke-width="0.6"/>
+    <line x1="950" y1="28"  x2="1182" y2="28"  stroke="#EC4899" stroke-width="0.4"/>
+    <line x1="980" y1="38"  x2="1182" y2="38"  stroke="#06B6D4" stroke-width="0.4"/>
+  </g>
+  <!-- Bottom accent lines -->
+  <g opacity="0.2">
+    <line x1="18" y1="352" x2="280" y2="352" stroke="#06B6D4" stroke-width="0.6"/>
+    <line x1="18" y1="362" x2="240" y2="362" stroke="#7C3AED" stroke-width="0.4"/>
   </g>
 
-  <text x="82" y="176" fill="#FFFFFF" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="74" font-weight="800" letter-spacing="0">Aya Naimi</text>
-  <text x="86" y="220" fill="#C7D2FE" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="25" font-weight="600">Full Stack Web Developer</text>
-  <text x="86" y="260" fill="#CBD5E1" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="18">React.js  |  Next.js  |  Laravel  |  PHP  |  Supabase  |  MySQL</text>
+  <!-- Main horizontal accent bar -->
+  <rect x="18" y="308" width="740" height="1" fill="url(#line-grad)" opacity="0.6"/>
 
-  <g transform="translate(815 178)">
-    <rect x="0" y="0" width="286" height="82" rx="22" fill="#FFFFFF" fill-opacity="0.075" stroke="#FFFFFF" stroke-opacity="0.13"/>
-    <text x="28" y="34" fill="#FFFFFF" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="18" font-weight="800">Currently building</text>
-    <text x="28" y="62" fill="#67E8F9" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="20" font-weight="800">EduTrack</text>
+  <!-- Left border accent -->
+  <rect x="18" y="72" width="2" height="220" rx="1" fill="url(#line-grad)" opacity="0.8"/>
+
+  <!-- Badge: Hello -->
+  <rect x="42" y="72" width="114" height="28" rx="14" fill="#FFFFFF" fill-opacity="0.06" stroke="#FFFFFF" stroke-opacity="0.12" stroke-width="0.8"/>
+  <circle cx="58" cy="86" r="5" fill="#10B981" fill-opacity="0.9"/>
+  <text x="70" y="91" fill="#A5B4FC" font-family="'SF Pro Display', 'Segoe UI', system-ui, sans-serif" font-size="12" font-weight="500" letter-spacing="0.5">Available</text>
+
+  <!-- Name -->
+  <text x="42" y="168" fill="url(#name-grad)" font-family="'SF Pro Display', 'Segoe UI', system-ui, sans-serif" font-size="76" font-weight="800" letter-spacing="-2">Aya Naimi</text>
+
+  <!-- Role -->
+  <text x="44" y="210" fill="#94A3B8" font-family="'SF Pro Display', 'Segoe UI', system-ui, sans-serif" font-size="22" font-weight="400" letter-spacing="0.5">Full Stack Web Developer</text>
+
+  <!-- Stack pills row -->
+  <g font-family="'SF Pro Display', 'Segoe UI', system-ui, sans-serif" font-size="12" font-weight="500">
+    <!-- React -->
+    <rect x="44"  y="236" width="68"  height="22" rx="11" fill="#61DAFB" fill-opacity="0.12" stroke="#61DAFB" stroke-opacity="0.4" stroke-width="0.8"/>
+    <text x="78"  y="251" fill="#61DAFB" text-anchor="middle">React</text>
+    <!-- Next.js -->
+    <rect x="120" y="236" width="68"  height="22" rx="11" fill="#E5E7EB" fill-opacity="0.08" stroke="#E5E7EB" stroke-opacity="0.3" stroke-width="0.8"/>
+    <text x="154" y="251" fill="#E5E7EB" text-anchor="middle">Next.js</text>
+    <!-- Laravel -->
+    <rect x="196" y="236" width="68"  height="22" rx="11" fill="#FF2D20" fill-opacity="0.12" stroke="#FF2D20" stroke-opacity="0.4" stroke-width="0.8"/>
+    <text x="230" y="251" fill="#FF6B6B" text-anchor="middle">Laravel</text>
+    <!-- PHP -->
+    <rect x="272" y="236" width="52"  height="22" rx="11" fill="#8B5CF6" fill-opacity="0.12" stroke="#8B5CF6" stroke-opacity="0.4" stroke-width="0.8"/>
+    <text x="298" y="251" fill="#C4B5FD" text-anchor="middle">PHP</text>
+    <!-- Supabase -->
+    <rect x="332" y="236" width="76"  height="22" rx="11" fill="#3ECF8E" fill-opacity="0.12" stroke="#3ECF8E" stroke-opacity="0.4" stroke-width="0.8"/>
+    <text x="370" y="251" fill="#6EE7B7" text-anchor="middle">Supabase</text>
+    <!-- MySQL -->
+    <rect x="416" y="236" width="65"  height="22" rx="11" fill="#4479A1" fill-opacity="0.12" stroke="#4479A1" stroke-opacity="0.4" stroke-width="0.8"/>
+    <text x="448" y="251" fill="#7ABFD8" text-anchor="middle">MySQL</text>
   </g>
+
+  <!-- Location tag -->
+  <g transform="translate(44 285)">
+    <text x="0" y="0" fill="#64748B" font-family="'SF Pro Display', 'Segoe UI', system-ui, sans-serif" font-size="13">📍 Morocco</text>
+  </g>
+
+  <!-- Divider vertical (right section) -->
+  <rect x="790" y="60" width="0.8" height="260" fill="#FFFFFF" fill-opacity="0.07"/>
+
+  <!-- Right card: Current project -->
+  <rect x="820" y="68" width="350" height="104" rx="14" fill="url(#card-bg)" stroke="#FFFFFF" stroke-opacity="0.08" stroke-width="0.8"/>
+  <text x="846" y="98" fill="#64748B" font-family="'SF Pro Display', 'Segoe UI', system-ui, sans-serif" font-size="10" font-weight="600" letter-spacing="1.5">CURRENTLY BUILDING</text>
+  <text x="846" y="126" fill="#FFFFFF" font-family="'SF Pro Display', 'Segoe UI', system-ui, sans-serif" font-size="26" font-weight="700">EduTrack</text>
+  <text x="846" y="150" fill="#64748B" font-family="'SF Pro Display', 'Segoe UI', system-ui, sans-serif" font-size="12">Scalable education management platform</text>
+
+  <!-- Right card: Learning -->
+  <rect x="820" y="190" width="166" height="78" rx="14" fill="url(#card-bg)" stroke="#FFFFFF" stroke-opacity="0.08" stroke-width="0.8"/>
+  <text x="846" y="214" fill="#64748B" font-family="'SF Pro Display', 'Segoe UI', system-ui, sans-serif" font-size="10" font-weight="600" letter-spacing="1.5">LEARNING</text>
+  <text x="846" y="238" fill="#A5B4FC" font-family="'SF Pro Display', 'Segoe UI', system-ui, sans-serif" font-size="14" font-weight="600">Laravel + React</text>
+  <text x="846" y="256" fill="#64748B" font-family="'SF Pro Display', 'Segoe UI', system-ui, sans-serif" font-size="11">Chart.js · Next.js perf</text>
+
+  <!-- Right card: Location -->
+  <rect x="1004" y="190" width="166" height="78" rx="14" fill="url(#card-bg)" stroke="#FFFFFF" stroke-opacity="0.08" stroke-width="0.8"/>
+  <text x="1030" y="214" fill="#64748B" font-family="'SF Pro Display', 'Segoe UI', system-ui, sans-serif" font-size="10" font-weight="600" letter-spacing="1.5">LOCATION</text>
+  <text x="1030" y="238" fill="#67E8F9" font-family="'SF Pro Display', 'Segoe UI', system-ui, sans-serif" font-size="14" font-weight="600">Morocco 🇲🇦</text>
+  <text x="1030" y="256" fill="#64748B" font-family="'SF Pro Display', 'Segoe UI', system-ui, sans-serif" font-size="11">ISGI · DTS WebDev</text>
+
+  <!-- Decorative circle top-right -->
+  <circle cx="1148" cy="316" r="60" fill="none" stroke="#7C3AED" stroke-opacity="0.12" stroke-width="0.8"/>
+  <circle cx="1148" cy="316" r="42" fill="none" stroke="#EC4899" stroke-opacity="0.09" stroke-width="0.6"/>
+  <circle cx="1148" cy="316" r="24" fill="none" stroke="#06B6D4" stroke-opacity="0.15" stroke-width="0.5"/>
+
+  <!-- Small decorative dots -->
+  <circle cx="762" cy="190" r="2.5" fill="#EC4899" fill-opacity="0.5"/>
+  <circle cx="775" cy="190" r="1.8" fill="#7C3AED" fill-opacity="0.4"/>
+  <circle cx="785" cy="190" r="1.2" fill="#06B6D4" fill-opacity="0.3"/>
 </svg>
