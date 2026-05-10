@@ -1,118 +1,104 @@
 const fs = require("node:fs/promises");
 
-const USERNAME = "AyaNaimi";
-const README_PATH = "README.md";
-const START = "<!-- AUTO-PROJECTS:START -->";
-const END = "<!-- AUTO-PROJECTS:END -->";
+const USERNAME  = "AyaNaimi";
+const README    = "README.md";
+const START     = "<!-- AUTO-PROJECTS:START -->";
+const END       = "<!-- AUTO-PROJECTS:END -->";
 
-const languageColors = {
-  JavaScript: "#F7DF1E",
-  TypeScript: "#3178C6",
-  PHP: "#777BB4",
-  HTML: "#E34F26",
-  CSS: "#1572B6",
-  Blade: "#F7523F",
-  Vue: "#41B883",
-  Python: "#3776AB",
-  Java: "#007396",
+const LANG = {
+  JavaScript: { logo: "javascript",  color: "F7DF1E" },
+  TypeScript:  { logo: "typescript",  color: "3178C6" },
+  PHP:         { logo: "php",          color: "8B5CF6" },
+  HTML:        { logo: "html5",        color: "E34F26" },
+  CSS:         { logo: "css3",         color: "38BDF8" },
+  Vue:         { logo: "vue.js",       color: "41B883" },
+  Python:      { logo: "python",       color: "3776AB" },
+  Java:        { logo: "java",         color: "007396" },
+  Blade:       { logo: "laravel",      color: "FF2D20" },
 };
 
-function escapeHtml(value = "") {
-  return value
-    .replaceAll("&", "&amp;")
-    .replaceAll("<", "&lt;")
-    .replaceAll(">", "&gt;")
-    .replaceAll('"', "&quot;");
+const esc = (s = "") => s
+  .replaceAll("&","&amp;").replaceAll("<","&lt;")
+  .replaceAll(">","&gt;").replaceAll('"',"&quot;");
+
+const date = (v) => new Intl.DateTimeFormat("en",{
+  year:"numeric", month:"short", day:"2-digit"
+}).format(new Date(v));
+
+function badge(lang) {
+  if (!lang) return "";
+  const b = LANG[lang] ?? { logo: "code", color: "94A3B8" };
+  return `![${lang}](https://img.shields.io/badge/${encodeURIComponent(lang)}-0D1117?style=flat-square&logo=${encodeURIComponent(b.logo)}&logoColor=${b.color})`;
 }
 
-function formatDate(value) {
-  return new Intl.DateTimeFormat("en", {
-    year: "numeric",
-    month: "short",
-    day: "2-digit",
-  }).format(new Date(value));
-}
-
-function languageDot(language) {
-  if (!language) return "";
-  const color = languageColors[language] || "#94A3B8";
-  return `<span><svg width="10" height="10"><circle cx="5" cy="5" r="5" fill="${color}" /></svg> ${escapeHtml(language)}</span>`;
-}
-
-function repoCard(repo) {
-  const description = repo.description || "Public repository by Aya Naimi.";
-  const homepage = repo.homepage
-    ? ` | <a href="${escapeHtml(repo.homepage)}">Live</a>`
+function card(repo) {
+  const desc = esc(repo.description ?? "Public repository by Aya Naimi.");
+  const live = repo.homepage
+    ? `&ensp;[![Live ↗](https://img.shields.io/badge/↗%20Live-0D1117?style=flat-square&logo=vercel&logoColor=06B6D4)](${esc(repo.homepage)})`
     : "";
-  const topics = repo.topics && repo.topics.length
-    ? `<br /><sub>${repo.topics.slice(0, 4).map((topic) => `#${escapeHtml(topic)}`).join(" ")}</sub>`
+  const stars = repo.stargazers_count > 0
+    ? `&ensp;![★ ${repo.stargazers_count}](https://img.shields.io/badge/★%20${repo.stargazers_count}-0D1117?style=flat-square&logoColor=F59E0B)`
+    : "";
+  const dateLabel = date(repo.pushed_at).replaceAll(" ", "%20");
+  const topics = repo.topics?.length
+    ? "\n\n" + repo.topics.slice(0,4).map(t=>`\`#${t}\``).join(" ")
     : "";
 
   return [
     `<td width="50%" valign="top">`,
-    `  <h3><a href="${escapeHtml(repo.html_url)}">${escapeHtml(repo.name)}</a></h3>`,
-    `  <p>${escapeHtml(description)}</p>`,
-    `  <p>${languageDot(repo.language)} | Stars: ${repo.stargazers_count} | Updated: ${formatDate(repo.pushed_at)}${homepage}</p>`,
-    `  ${topics}`,
+    ``,
+    `**[${esc(repo.name)}](${esc(repo.html_url)})**${live}`,
+    ``,
+    desc,
+    topics,
+    ``,
+    `${badge(repo.language)}${stars}&ensp;![](https://img.shields.io/badge/${dateLabel}-0D1117?style=flat-square&logoColor=475569)`,
+    ``,
     `</td>`,
   ].join("\n");
 }
 
-function makeTable(repos) {
+function table(repos) {
   const rows = [];
   for (let i = 0; i < repos.length; i += 2) {
-    const left = repoCard(repos[i]);
-    const right = repos[i + 1] ? repoCard(repos[i + 1]) : '<td width="50%" valign="top"></td>';
-    rows.push(`<tr>\n${left}\n${right}\n</tr>`);
+    const l = card(repos[i]);
+    const r = repos[i+1] ? card(repos[i+1]) : `<td width="50%"></td>`;
+    rows.push(`<tr>\n${l}\n${r}\n</tr>`);
   }
-
   return `<table>\n${rows.join("\n")}\n</table>`;
 }
 
 async function fetchRepos() {
-  const response = await fetch(`https://api.github.com/users/${USERNAME}/repos?type=public&sort=pushed&per_page=100`, {
-    headers: {
-      Accept: "application/vnd.github+json",
-      "X-GitHub-Api-Version": "2022-11-28",
-      "User-Agent": "AyaNaimi-profile-readme-updater",
-    },
-  });
-
-  if (!response.ok) {
-    throw new Error(`GitHub API failed: ${response.status} ${response.statusText}`);
-  }
-
-  const repos = await response.json();
-  return repos
-    .filter((repo) => !repo.fork)
-    .filter((repo) => repo.name.toLowerCase() !== USERNAME.toLowerCase())
-    .sort((a, b) => {
-      const stars = b.stargazers_count - a.stargazers_count;
-      if (stars !== 0) return stars;
-      return new Date(b.pushed_at) - new Date(a.pushed_at);
-    })
+  const res = await fetch(
+    `https://api.github.com/users/${USERNAME}/repos?type=public&sort=pushed&per_page=100`,
+    { headers: {
+        Accept: "application/vnd.github+json",
+        "X-GitHub-Api-Version": "2022-11-28",
+        "User-Agent": `${USERNAME}-readme-updater`,
+    }}
+  );
+  if (!res.ok) throw new Error(`GitHub API: ${res.status} ${res.statusText}`);
+  return (await res.json())
+    .filter(r => !r.fork)
+    .filter(r => /^[A-Z]/.test(r.name))               // ← capital-letter filter
+    .filter(r => r.name.toLowerCase() !== USERNAME.toLowerCase())
+    .sort((a,b) => b.stargazers_count - a.stargazers_count
+                || new Date(b.pushed_at) - new Date(a.pushed_at))
     .slice(0, 6);
 }
 
 async function main() {
-  const readme = await fs.readFile(README_PATH, "utf8");
-  const repos = await fetchRepos();
-  const projects = repos.length
-    ? makeTable(repos)
-    : "No public repositories found yet.";
-
-  const startIndex = readme.indexOf(START);
-  const endIndex = readme.indexOf(END);
-
-  if (startIndex === -1 || endIndex === -1 || endIndex < startIndex) {
-    throw new Error("Auto project markers were not found in README.md");
-  }
-
-  const nextReadme = `${readme.slice(0, startIndex + START.length)}\n${projects}\n${readme.slice(endIndex)}`;
-  await fs.writeFile(README_PATH, nextReadme, "utf8");
+  const [src, repos] = await Promise.all([fs.readFile(README,"utf8"), fetchRepos()]);
+  const block = repos.length
+    ? table(repos)
+    : `<p align="center"><sub>No featured projects yet.</sub></p>`;
+  const si = src.indexOf(START), ei = src.indexOf(END);
+  if (si < 0 || ei < 0) throw new Error("Markers not found in README");
+  await fs.writeFile(README,
+    src.slice(0, si + START.length) + "\n" + block + "\n" + src.slice(ei),
+    "utf8"
+  );
+  console.log(`✓ ${repos.length} repo(s) — ${repos.map(r=>r.name).join(", ") || "none"}`);
 }
 
-main().catch((error) => {
-  console.error(error);
-  process.exit(1);
-});
+main().catch(e => { console.error(e); process.exit(1); });
