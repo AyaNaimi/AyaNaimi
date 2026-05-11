@@ -72,22 +72,59 @@ I build modern web applications focused on clean interfaces, smooth UX, and well
 <tr>
 <td width="50%" valign="top">
 
-**[trimly2](https://github.com/AyaNaimi/trimly2)**&ensp;[![Live](https://img.shields.io/badge/↗%20Live-0D1117?style=flat-square&logo=vercel&logoColor=06B6D4)](https://trimly2.vercel.app)
+**[Trimly2](https://github.com/AyaNaimi/Trimly2)**&ensp;[![Live ↗](https://img.shields.io/badge/↗%20Live-0D1117?style=flat-square&logo=vercel&logoColor=06B6D4)](https://trimly2.vercel.app)
 
 Public repository by Aya Naimi.
 
-![JavaScript](https://img.shields.io/badge/JavaScript-0D1117?style=flat-square&logo=javascript&logoColor=F7DF1E)&ensp;![Updated](https://img.shields.io/badge/May%2006%202026-0D1117?style=flat-square&logoColor=64748B)
+
+![JavaScript](https://img.shields.io/badge/JavaScript-0D1117?style=flat-square&logo=javascript&logoColor=F7DF1E)&ensp;![](https://img.shields.io/badge/May%2006,%202026-0D1117?style=flat-square&logoColor=475569)
 
 </td>
 <td width="50%" valign="top">
 
-**[navito](https://github.com/AyaNaimi/navito)**
+**[Eventify](https://github.com/AyaNaimi/Eventify)**
 
 Public repository by Aya Naimi.
 
-![TypeScript](https://img.shields.io/badge/TypeScript-0D1117?style=flat-square&logo=typescript&logoColor=3178C6)&ensp;![Updated](https://img.shields.io/badge/Apr%2017%202026-0D1117?style=flat-square&logoColor=64748B)
+
+![JavaScript](https://img.shields.io/badge/JavaScript-0D1117?style=flat-square&logo=javascript&logoColor=F7DF1E)&ensp;![](https://img.shields.io/badge/Mar%2020,%202026-0D1117?style=flat-square&logoColor=475569)
 
 </td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+
+**[EduTrack](https://github.com/AyaNaimi/EduTrack)**
+
+Public repository by Aya Naimi.
+
+
+![Blade](https://img.shields.io/badge/Blade-0D1117?style=flat-square&logo=laravel&logoColor=FF2D20)&ensp;![](https://img.shields.io/badge/Jan%2013,%202026-0D1117?style=flat-square&logoColor=475569)
+
+</td>
+<td width="50%" valign="top">
+
+**[IKIGAI](https://github.com/AyaNaimi/IKIGAI)**
+
+Public repository by Aya Naimi.
+
+
+![PHP](https://img.shields.io/badge/PHP-0D1117?style=flat-square&logo=php&logoColor=8B5CF6)&ensp;![](https://img.shields.io/badge/Mar%2031,%202025-0D1117?style=flat-square&logoColor=475569)
+
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+
+**[SEOUL-NOOK](https://github.com/AyaNaimi/SEOUL-NOOK)**
+
+E-COMERCE WEB SITE (WEB STATIQUE)
+
+
+![HTML](https://img.shields.io/badge/HTML-0D1117?style=flat-square&logo=html5&logoColor=E34F26)&ensp;![](https://img.shields.io/badge/Feb%2020,%202025-0D1117?style=flat-square&logoColor=475569)
+
+</td>
+<td width="50%"></td>
 </tr>
 </table>
 <!-- AUTO-PROJECTS:END -->
