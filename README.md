@@ -82,6 +82,18 @@ Public repository by Aya Naimi.
 </td>
 <td width="50%" valign="top">
 
+**[AyaNaimi.github.io](https://github.com/AyaNaimi/AyaNaimi.github.io)**
+
+Public repository by Aya Naimi.
+
+
+&ensp;![](https://img.shields.io/badge/Sep%2004,%202026-0D1117?style=flat-square&logoColor=475569)
+
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+
 **[Eventify](https://github.com/AyaNaimi/Eventify)**
 
 Public repository by Aya Naimi.
@@ -90,8 +102,6 @@ Public repository by Aya Naimi.
 ![JavaScript](https://img.shields.io/badge/JavaScript-0D1117?style=flat-square&logo=javascript&logoColor=F7DF1E)&ensp;![](https://img.shields.io/badge/Mar%2020,%202026-0D1117?style=flat-square&logoColor=475569)
 
 </td>
-</tr>
-<tr>
 <td width="50%" valign="top">
 
 **[EduTrack](https://github.com/AyaNaimi/EduTrack)**
@@ -102,6 +112,8 @@ Public repository by Aya Naimi.
 ![Blade](https://img.shields.io/badge/Blade-0D1117?style=flat-square&logo=laravel&logoColor=FF2D20)&ensp;![](https://img.shields.io/badge/Jan%2013,%202026-0D1117?style=flat-square&logoColor=475569)
 
 </td>
+</tr>
+<tr>
 <td width="50%" valign="top">
 
 **[IKIGAI](https://github.com/AyaNaimi/IKIGAI)**
@@ -112,8 +124,6 @@ Public repository by Aya Naimi.
 ![PHP](https://img.shields.io/badge/PHP-0D1117?style=flat-square&logo=php&logoColor=8B5CF6)&ensp;![](https://img.shields.io/badge/Mar%2031,%202025-0D1117?style=flat-square&logoColor=475569)
 
 </td>
-</tr>
-<tr>
 <td width="50%" valign="top">
 
 **[SEOUL-NOOK](https://github.com/AyaNaimi/SEOUL-NOOK)**
@@ -124,7 +134,6 @@ E-COMERCE WEB SITE (WEB STATIQUE)
 ![HTML](https://img.shields.io/badge/HTML-0D1117?style=flat-square&logo=html5&logoColor=E34F26)&ensp;![](https://img.shields.io/badge/Feb%2020,%202025-0D1117?style=flat-square&logoColor=475569)
 
 </td>
-<td width="50%"></td>
 </tr>
 </table>
 <!-- AUTO-PROJECTS:END -->
