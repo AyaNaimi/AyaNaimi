@@ -77,7 +77,7 @@ I build modern web applications focused on clean interfaces, smooth UX, and well
 Public repository by Aya Naimi.
 
 
-![JavaScript](https://img.shields.io/badge/JavaScript-0D1117?style=flat-square&logo=javascript&logoColor=F7DF1E)&ensp;![](https://img.shields.io/badge/Sep%2004,%202026-0D1117?style=flat-square&logoColor=475569)
+![JavaScript](https://img.shields.io/badge/JavaScript-0D1117?style=flat-square&logo=javascript&logoColor=F7DF1E)&ensp;![](https://img.shields.io/badge/Sep%2005,%202026-0D1117?style=flat-square&logoColor=475569)
 
 </td>
 <td width="50%" valign="top">
@@ -87,7 +87,7 @@ Public repository by Aya Naimi.
 Public repository by Aya Naimi.
 
 
-&ensp;![](https://img.shields.io/badge/Sep%2004,%202026-0D1117?style=flat-square&logoColor=475569)
+&ensp;![](https://img.shields.io/badge/Sep%2005,%202026-0D1117?style=flat-square&logoColor=475569)
 
 </td>
 </tr>
